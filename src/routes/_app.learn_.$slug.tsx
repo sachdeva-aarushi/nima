@@ -54,7 +54,7 @@ function ArticleDetail() {
     return (
       <div className="mx-auto max-w-md px-5 pt-10 text-center text-[#8A6E6B]">
         <p>This article could not be found.</p>
-        <Link to="/learn" className="mt-4 inline-block text-[#D4726D] underline">
+        <Link to="/learn" search={{}} className="mt-4 inline-block text-[#D4726D] underline">
           Back to library
         </Link>
       </div>
@@ -102,7 +102,7 @@ function ArticleDetail() {
 
         <header className="absolute inset-x-0 top-0 z-10 flex items-center justify-between px-5 pt-6">
           <button
-            onClick={() => navigate({ to: "/learn" })}
+            onClick={() => navigate({ to: "/learn", search: {} })}
             aria-label="Back"
             className="flex h-9 w-9 items-center justify-center rounded-full bg-black/40 text-white backdrop-blur"
           >

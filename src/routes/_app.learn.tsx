@@ -18,7 +18,7 @@ import { cn } from "@/lib/utils";
 
 export const Route = createFileRoute("/_app/learn")({
   head: () => ({ meta: [{ title: "Wellness Library — Nima" }] }),
-  validateSearch: (s: Record<string, unknown>) => ({
+  validateSearch: (s: Record<string, unknown>): { seed?: boolean } => ({
     seed: s.seed === "true" || s.seed === true ? true : undefined,
   }),
   component: WellnessLibrary,
