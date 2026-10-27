@@ -1,0 +1,2 @@
+UPDATE public.articles SET source_url = 'https://www.nhs.uk/pregnancy/labour-and-birth/your-body/' WHERE slug = 'postpartum-bleeding-and-discharge-nhs';
+UPDATE public.articles SET source_url = 'https://my.clevelandclinic.org/health/articles/14300-sleep-in-your-babys-first-year' WHERE slug = 'sleep-and-your-new-baby-cleveland-clinic';

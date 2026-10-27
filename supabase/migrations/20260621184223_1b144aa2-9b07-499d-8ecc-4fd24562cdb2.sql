@@ -1,0 +1,1 @@
+ALTER TYPE public.record_source ADD VALUE IF NOT EXISTS 'quiz_session';
